@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "About",
+    "features": "Features",
+    "portfolio": "Portfolio",
+    "reviews": "Reviews",
+    "terms": "Terms",
+    "blogs": "Blogs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Business Ideas to Grow Rapidly",
+    "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans.",
+    "getStarted": "Get Started",
+    "demoVideo": "Demo Video"
+  },
+  "services": {
+    "title": "Exactly Everything You Need For Business",
+    "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans.",
+    "businessSupport": {
+      "title": "Business Growing Support",
+      "description": "Get every necessary support to grow as a business startup."
+    },
+    "community": {
+      "title": "Community Attachment",
+      "description": "A lifetime connection with a community of dreamers."
+    },
+    "discovery": {
+      "title": "Exceptional Discovery Plans",
+      "description": "An exceptional plan can take you millions of steps ahead — and we help you discover it."
+    },
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "title": "We Worked With 100+ Companies Over 10 Years",
+    "completedProjects": "Completed Projects",
+    "happyClients": "Satisfyingly Happy Clients",
+    "employees": "Expert Team Members",
+    "caseStudies": "Startup Case Studies"
+  },
+  "portfolio": {
+    "jobhub": {
+      "title": "JobHub - Job Finding Website",
+      "description": "This website has become one of the best UX interfaces for users with a beautiful UI and is also lucrative for upcoming startups in the sector.",
+      "viewMore": "View More Work"
+    },
+    "cent": {
+      "title": "CENT - Payment App Landing Website",
+      "description": "This website has become one of the best UX interfaces for users with a beautiful UI and is also lucrative for upcoming startups in the sector."
+    }
+  },
+  "blog": {
+    "title": "We Publish Blogs Every Week",
+    "post1": "Upgrowing Economy Needs More Startups",
+    "post2": "Team Has Some Unique Feature - What’s Yours?",
+    "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans."
+  },
+  "newsletter": {
+    "title": "Subscribe To Our Newsletter",
+    "subtitle": "Get The Best Offers With One Click",
+    "button": "Subscribe"
+  },
+  "footer": {
+    "agency": "Business Consultancy Agency",
+    "about": "About"
+  }
+}
