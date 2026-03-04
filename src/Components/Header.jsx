@@ -23,7 +23,7 @@ const Header = () => {
                             <li className='font-medium text-[16px]  '>{t("nav.reviews")}</li>
                         </ul>
                     </nav>
-                    <button className='rounded-full p-[10px] py-[13px]text-[#FFFFFF] bg-[#124F48] ' onClick={toggleTheme}>Toggle {theme}</button>
+                    <button className='px-3 py-2 rounded-full text-[14px] font-bold text-[#FFFFFF] bg-[#124F48] ' onClick={toggleTheme}>Toggle {theme}</button>
                     <div className='flex items-center gap-2 rounded-full bg-[#124F48] p-1'>
                         <button
                             onClick={() => changeLanguage("uz")}
