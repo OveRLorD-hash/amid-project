@@ -25,7 +25,7 @@ const Hero = () => {
             <div className='grid items-center gap-10 lg:grid-cols-2'>
               <div className='max-w-[520px]'>
                 <span className='inline-block bg-[#FDEEE8] text-[#FF7E36] text-[18px] px-4 py-1.5 rounded-[4px]'>
-                  it works!
+                  {t('hero.badge')}
                 </span>
 
                 <h1 className='mt-6 text-[#082129] font-extrabold leading-[1.05] text-[42px] md:text-[56px]'>
@@ -120,14 +120,14 @@ const Hero = () => {
             <div className='grid gap-8 lg:grid-cols-2 lg:items-center'>
               <div>
                 <span className='inline-block rounded-[4px] border border-[#EAECEC] bg-white px-5 py-2 text-[16px] font-semibold lowercase tracking-[0.08em] text-[#FF8238]'>
-                  services
+                  {t('services.label')}
                 </span>
                 <h2 className='mt-5 max-w-[560px] text-[42px] font-extrabold leading-[1.2] text-[#082129] md:text-[56px]'>
-                  Exactly Everything You Need For Business
+                  {t('services.title')}
                 </h2>
               </div>
               <p className='max-w-[480px] text-[18px] leading-[1.8] text-[#4E5A5E] lg:justify-self-end'>
-                We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan
+                {t('services.description')}
               </p>
             </div>
 
@@ -141,13 +141,13 @@ const Hero = () => {
                   </svg>
                 </div>
                 <h3 className='mt-7 text-[36px] font-extrabold leading-[1.3] text-[#082129]'>
-                  Business Growing Support
+                  {t('services.businessSupport.title')}
                 </h3>
                 <p className='mt-5 text-[18px] leading-[1.9] text-[#4E5A5E]'>
-                  Get every necessary support to grow as business startup
+                  {t('services.businessSupport.description')}
                 </p>
                 <a href='#' className='mt-8 inline-flex items-center gap-3 text-[28px] font-semibold text-[#0E5B55]'>
-                  Learn More
+                  {t('services.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -162,16 +162,16 @@ const Hero = () => {
                   </svg>
                 </div>
                 <h3 className='mt-7 text-[36px] font-extrabold leading-[1.3] text-[#082129]'>
-                  Community Attachment
+                  {t('services.community.title')}
                 </h3>
                 <p className='mt-5 text-[18px] leading-[1.9] text-[#4E5A5E]'>
-                  A lifetime attachment with the community dreamer
+                  {t('services.community.description')}
                 </p>
                 <a
                   href='#'
                   className='mt-8 inline-flex h-[64px] min-w-[220px] items-center justify-center gap-3 rounded-full bg-[#FF8238] px-8 text-[28px] font-semibold text-white'
                 >
-                  Learn More
+                  {t('services.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -187,13 +187,13 @@ const Hero = () => {
                   </svg>
                 </div>
                 <h3 className='mt-7 text-[36px] font-extrabold leading-[1.3] text-[#082129]'>
-                  Exceptional Discovery Plans
+                  {t('services.discovery.title')}
                 </h3>
                 <p className='mt-5 text-[18px] leading-[1.9] text-[#4E5A5E]'>
-                  An exceptional plan can take you ahead millions of step which we discove
+                  {t('services.discovery.description')}
                 </p>
                 <a href='#' className='mt-8 inline-flex items-center gap-3 text-[28px] font-semibold text-[#0E5B55]'>
-                  Learn More
+                  {t('services.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -209,33 +209,34 @@ const Hero = () => {
             <div className='grid gap-10 lg:grid-cols-2 lg:items-start'>
               <div>
                 <span className='inline-block rounded-[4px] border border-[#EAECEC] bg-white px-5 py-2 text-[16px] font-semibold lowercase tracking-[0.08em] text-[#FF8238]'>
-                  achievements
+                  {t('stats.label')}
                 </span>
                 <h2 className='mt-5 max-w-[620px] text-[40px] font-extrabold leading-[1.25] text-[#082129] md:text-[56px]'>
-                  We Worked With <span className='text-[#FF8238]'>100+</span> Company Over <span className='text-[#FF8238]'>10</span> Years
+                  {t('stats.titleBefore')} <span className='text-[#FF8238]'>100+</span> {t('stats.titleMiddle')}{' '}
+                  <span className='text-[#FF8238]'>10</span> {t('stats.titleAfter')}
                 </h2>
               </div>
 
               <div className='space-y-6 pt-2'>
                 <div className='grid gap-2 md:grid-cols-[80px_1fr_auto] md:items-center md:gap-4'>
                   <p className='text-[42px] font-extrabold leading-none text-[#9AB0B2]'>9k+</p>
-                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>Completed Full Projects</p>
-                  <p className='text-[16px] font-semibold text-[#FF8238]'>From 789+ Companies</p>
+                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>{t('stats.completedProjects')}</p>
+                  <p className='text-[16px] font-semibold text-[#FF8238]'>{t('stats.fromCompanies')}</p>
                 </div>
                 <div className='grid gap-2 md:grid-cols-[80px_1fr_auto] md:items-center md:gap-4'>
                   <p className='text-[42px] font-extrabold leading-none text-[#9AB0B2]'>924+</p>
-                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>Satisfyingly Happy Clients</p>
-                  <p className='text-[16px] font-semibold text-[#FF8238]'>From 100+ Countries</p>
+                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>{t('stats.happyClients')}</p>
+                  <p className='text-[16px] font-semibold text-[#FF8238]'>{t('stats.fromCountries100')}</p>
                 </div>
                 <div className='grid gap-2 md:grid-cols-[80px_1fr_auto] md:items-center md:gap-4'>
                   <p className='text-[42px] font-extrabold leading-none text-[#9AB0B2]'>416</p>
-                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>Expertised Unit Employees</p>
-                  <p className='text-[16px] font-semibold text-[#FF8238]'>From 20+ Countries</p>
+                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>{t('stats.employees')}</p>
+                  <p className='text-[16px] font-semibold text-[#FF8238]'>{t('stats.fromCountries20')}</p>
                 </div>
                 <div className='grid gap-2 md:grid-cols-[80px_1fr_auto] md:items-center md:gap-4'>
                   <p className='text-[42px] font-extrabold leading-none text-[#9AB0B2]'>3024</p>
-                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>Startups Case Studies</p>
-                  <p className='text-[16px] font-semibold text-[#FF8238]'>From 100+ Countries</p>
+                  <p className='text-[19px] font-semibold leading-[1.4] text-[#0E5B55]'>{t('stats.caseStudies')}</p>
+                  <p className='text-[16px] font-semibold text-[#FF8238]'>{t('stats.fromCountries100')}</p>
                 </div>
               </div>
             </div>
@@ -252,12 +253,12 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <h3 className='mt-6 text-[34px] font-extrabold text-[#082129]'>JobHub Job Finding Website</h3>
+                <h3 className='mt-6 text-[34px] font-extrabold text-[#082129]'>{t('portfolio.jobhub.title')}</h3>
                 <p className='mt-4 max-w-[560px] text-[18px] leading-[1.9] text-[#4E5A5E]'>
-                  This website has become one of the best ux interface for users with an beautiful ui and also lucrative fot upcoming startups in the sectors
+                  {t('portfolio.jobhub.description')}
                 </p>
                 <button className='mt-8 inline-flex items-center gap-3 rounded-full bg-[#FF8238] px-8 py-4 text-[19px] font-semibold text-white'>
-                  View More Work
+                  {t('portfolio.jobhub.viewMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -276,9 +277,9 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <h3 className='mt-6 text-[34px] font-extrabold text-[#082129]'>CENT - Payment App Landing Website</h3>
+                <h3 className='mt-6 text-[34px] font-extrabold text-[#082129]'>{t('portfolio.cent.title')}</h3>
                 <p className='mt-4 max-w-[560px] text-[18px] leading-[1.9] text-[#4E5A5E]'>
-                  This website has become one of the best ux interface for users with an beautiful ui and also lucrative fot upcoming startups in the sectors
+                  {t('portfolio.cent.description')}
                 </p>
               </article>
             </div>
@@ -289,13 +290,13 @@ const Hero = () => {
           <div className='max-w-full w-[85%] mx-auto'>
             <div className='text-center'>
               <span className='inline-block rounded-[4px] border border-[#EAECEC] bg-white px-5 py-2 text-[16px] font-semibold lowercase tracking-[0.08em] text-[#FF8238]'>
-                blog
+                {t('blog.label')}
               </span>
               <h2 className='mt-5 text-[40px] font-extrabold leading-[1.2] text-[#082129] md:text-[56px]'>
-                We Publish Blogs Every Week
+                {t('blog.title')}
               </h2>
               <p className='mx-auto mt-4 max-w-[740px] text-[18px] leading-[1.8] text-[#4E5A5E]'>
-                We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan
+                {t('blog.description')}
               </p>
             </div>
 
@@ -320,20 +321,20 @@ const Hero = () => {
                   <div className='h-[250px] rounded-[6px] bg-gradient-to-r from-[#E7F0F2] to-[#DDE8EB]' />
                   <div className='absolute -top-3 right-5 rounded-[8px] bg-[#0E5B55] px-4 py-2 text-center text-white'>
                     <p className='text-[24px] font-extrabold leading-none'>22</p>
-                    <p className='text-[20px] font-bold leading-none mt-1'>Dec</p>
+                    <p className='text-[20px] font-bold leading-none mt-1'>{t('blog.monthShort')}</p>
                   </div>
                 </div>
                 <h3 className='mt-6 text-[34px] font-extrabold leading-[1.3] text-[#082129]'>
-                  Upgrowing Economy Needs More Startups
+                  {t('blog.post1')}
                 </h3>
                 <p className='mt-4 text-[18px] leading-[1.8] text-[#4E5A5E]'>
-                  We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan
+                  {t('blog.description')}
                 </p>
                 <a
                   href='#'
                   className='mt-8 inline-flex items-center gap-3 rounded-full bg-[#FF8238] px-8 py-4 text-[19px] font-semibold text-white'
                 >
-                  Learn More
+                  {t('blog.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -346,17 +347,17 @@ const Hero = () => {
                   <div className='h-[250px] rounded-[6px] bg-gradient-to-r from-[#EDE5DF] to-[#E5ECF0]' />
                   <div className='absolute -top-3 right-5 rounded-[8px] bg-[#0E5B55] px-4 py-2 text-center text-white'>
                     <p className='text-[24px] font-extrabold leading-none'>16</p>
-                    <p className='text-[20px] font-bold leading-none mt-1'>Dec</p>
+                    <p className='text-[20px] font-bold leading-none mt-1'>{t('blog.monthShort')}</p>
                   </div>
                 </div>
                 <h3 className='mt-6 text-[34px] font-extrabold leading-[1.3] text-[#082129]'>
-                  Team Has Some Unique Feature - What Yours?
+                  {t('blog.post2')}
                 </h3>
                 <p className='mt-4 text-[18px] leading-[1.8] text-[#4E5A5E]'>
-                  We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan
+                  {t('blog.description')}
                 </p>
                 <a href='#' className='mt-8 inline-flex items-center gap-3 text-[22px] font-semibold text-[#0E5B55]'>
-                  Learn More
+                  {t('blog.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M5 12H19' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' />
                     <path d='M13 6L19 12L13 18' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />

@@ -1,68 +1,87 @@
 {
   "nav": {
-    "about": "О нас",
-    "features": "Возможности",
-    "portfolio": "Портфолио",
-    "reviews": "Отзывы",
-    "terms": "Условия",
-    "blogs": "Блог",
-    "contact": "Контакты",
-    "tuggle": "таскать"
+    "about": "Biz haqimizda",
+    "features": "Imkoniyatlar",
+    "portfolio": "Portfolio",
+    "reviews": "Fikrlar",
+    "terms": "Shartlar",
+    "blogs": "Bloglar",
+    "contact": "Kontakt",
+    "tuggle": "Almashtirish"
   },
   "hero": {
-    "title": "Бизнес-идеи для быстрого роста",
-    "description": "Мы понимаем, насколько сильно вы хотите развиваться в бизнесе, и наша цель — помочь вам с практичными идеями и планами.",
-    "getStarted": "Начать",
-    "demoVideo": "Демо видео"
+    "badge": "ishlaydi!",
+    "title": "Tez rivojlanish uchun biznes g'oyalar",
+    "description": "Biz siz biznes olamida qanchalik o'sishni xohlayotganingizni tushunamiz va maqsadimiz sizga amaliy g'oya hamda rejalar bilan yordam berish.",
+    "getStarted": "Boshlash",
+    "demoVideo": "Demo video"
   },
   "services": {
-    "title": "Всё, что нужно для вашего бизнеса",
-    "description": "Мы понимаем, насколько сильно вы хотите развиваться в бизнесе, и наша цель — помочь вам с практичными идеями и планами.",
+    "label": "xizmatlar",
+    "title": "Biznes uchun kerakli hamma narsa",
+    "description": "Biz siz biznes olamida qanchalik o'sishni xohlayotganingizni tushunamiz va maqsadimiz sizga amaliy g'oya hamda rejalar bilan yordam berish.",
     "businessSupport": {
-      "title": "Поддержка роста бизнеса",
-      "description": "Получите всю необходимую поддержку для развития стартапа."
+      "title": "Biznes o'sishi uchun yordam",
+      "description": "Startup sifatida o'sish uchun barcha zarur yordamni oling."
     },
     "community": {
-      "title": "Сообщество единомышленников",
-      "description": "Пожизненная связь с сообществом мечтателей и предпринимателей."
+      "title": "Hamjamiyatga ulanish",
+      "description": "Orzudagi insonlar hamjamiyati bilan uzoq muddatli aloqa."
     },
     "discovery": {
-      "title": "Исключительные стратегические планы",
-      "description": "Исключительный план может продвинуть вас на миллионы шагов вперёд — и мы поможем вам его найти."
+      "title": "Ajoyib rivojlanish rejalari",
+      "description": "To'g'ri reja sizni oldinga katta qadamlar bilan olib chiqadi."
     },
-    "learnMore": "Подробнее"
+    "learnMore": "Batafsil"
   },
   "stats": {
-    "title": "Мы работали с более чем 100 компаниями за 10 лет",
-    "completedProjects": "Завершённые проекты",
-    "happyClients": "Довольные клиенты",
-    "employees": "Профессиональная команда",
-    "caseStudies": "Кейсы стартапов"
+    "label": "yutuqlar",
+    "titleBefore": "Biz",
+    "titleMiddle": "dan ortiq kompaniya bilan",
+    "titleAfter": "yil ishladik",
+    "completedProjects": "To'liq yakunlangan loyihalar",
+    "happyClients": "Mamnun mijozlar",
+    "employees": "Tajribali mutaxassislar",
+    "caseStudies": "Startup keyslari",
+    "fromCompanies": "789+ kompaniyadan",
+    "fromCountries100": "100+ davlatdan",
+    "fromCountries20": "20+ davlatdan"
   },
   "portfolio": {
     "jobhub": {
-      "title": "JobHub — сайт поиска работы",
-      "description": "Этот сайт стал одним из лучших по UX-интерфейсу с красивым UI и также выгоден для развивающихся стартапов в данной сфере.",
-      "viewMore": "Посмотреть больше работ"
+      "title": "JobHub - Ish topish vebsayti",
+      "description": "Ushbu sayt chiroyli UI va qulay UX bilan foydalanuvchilar uchun eng yaxshi interfeyslardan biriga aylandi.",
+      "viewMore": "Yana ishlarni ko'rish"
     },
     "cent": {
-      "title": "CENT — лендинг платёжного приложения",
-      "description": "Этот сайт стал одним из лучших по UX-интерфейсу с красивым UI и также выгоден для развивающихся стартапов в данной сфере."
+      "title": "CENT - To'lov ilovasi landing sahifasi",
+      "description": "Ushbu sayt chiroyli UI va qulay UX bilan foydalanuvchilar uchun eng yaxshi interfeyslardan biriga aylandi."
     }
   },
   "blog": {
-    "title": "Мы публикуем статьи каждую неделю",
-    "post1": "Развивающейся экономике нужно больше стартапов",
-    "post2": "У вашей команды есть уникальная особенность — а какая у вас?",
-    "description": "Мы понимаем, насколько сильно вы хотите развиваться в бизнесе, и наша цель — помочь вам с практичными идеями и планами."
+    "label": "blog",
+    "title": "Har hafta bloglar chop etamiz",
+    "post1": "O'sayotgan iqtisodiyotga ko'proq startap kerak",
+    "post2": "Jamoangizda o'ziga xos jihat bormi?",
+    "description": "Biz siz biznes olamida qanchalik o'sishni xohlayotganingizni tushunamiz va maqsadimiz sizga amaliy g'oya hamda rejalar bilan yordam berish.",
+    "learnMore": "Batafsil",
+    "monthShort": "Dek"
   },
   "newsletter": {
-    "title": "Подпишитесь на нашу рассылку",
-    "subtitle": "Получайте лучшие предложения в один клик",
-    "button": "Подписаться"
+    "title": "Bizning yangiliklarimizga obuna bo'ling",
+    "subtitle": "Eng yaxshi takliflarni oling",
+    "oneClick": "Bir bosishda",
+    "button": "Obuna bo'lish"
   },
   "footer": {
-    "agency": "Консалтинговое бизнес-агентство",
-    "about": "О нас"
+    "agency": "Biznes konsalting agentligi",
+    "about": "Biz haqimizda",
+    "terms": "Shartlar",
+    "blogs": "Bloglar",
+    "contact": "Kontakt",
+    "phone": "+998 1276 234",
+    "address": "82/93 Boeind ko'chasi, NY",
+    "email": "info@amid.mail.com",
+    "rights": "Barcha huquqlar himoyalangan @Debzui2020"
   }
 }

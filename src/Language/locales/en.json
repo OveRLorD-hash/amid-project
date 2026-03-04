@@ -7,15 +7,17 @@
     "terms": "Terms",
     "blogs": "Blogs",
     "contact": "Contact",
-    "tuggle": "tuggle"
+    "tuggle": "Toggle"
   },
   "hero": {
+    "badge": "it works!",
     "title": "Business Ideas to Grow Rapidly",
     "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans.",
     "getStarted": "Get Started",
     "demoVideo": "Demo Video"
   },
   "services": {
+    "label": "services",
     "title": "Exactly Everything You Need For Business",
     "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans.",
     "businessSupport": {
@@ -28,20 +30,26 @@
     },
     "discovery": {
       "title": "Exceptional Discovery Plans",
-      "description": "An exceptional plan can take you millions of steps ahead — and we help you discover it."
+      "description": "An exceptional plan can take you millions of steps ahead, and we help you discover it."
     },
     "learnMore": "Learn More"
   },
   "stats": {
-    "title": "We Worked With 100+ Companies Over 10 Years",
-    "completedProjects": "Completed Projects",
+    "label": "achievements",
+    "titleBefore": "We Worked With",
+    "titleMiddle": "Company Over",
+    "titleAfter": "Years",
+    "completedProjects": "Completed Full Projects",
     "happyClients": "Satisfyingly Happy Clients",
-    "employees": "Expert Team Members",
-    "caseStudies": "Startup Case Studies"
+    "employees": "Expertised Unit Employees",
+    "caseStudies": "Startups Case Studies",
+    "fromCompanies": "From 789+ Companies",
+    "fromCountries100": "From 100+ Countries",
+    "fromCountries20": "From 20+ Countries"
   },
   "portfolio": {
     "jobhub": {
-      "title": "JobHub - Job Finding Website",
+      "title": "JobHub Job Finding Website",
       "description": "This website has become one of the best UX interfaces for users with a beautiful UI and is also lucrative for upcoming startups in the sector.",
       "viewMore": "View More Work"
     },
@@ -51,18 +59,29 @@
     }
   },
   "blog": {
+    "label": "blog",
     "title": "We Publish Blogs Every Week",
     "post1": "Upgrowing Economy Needs More Startups",
-    "post2": "Team Has Some Unique Feature - What’s Yours?",
-    "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans."
+    "post2": "Team Has Some Unique Feature - What Yours?",
+    "description": "We understand how desperately you want to grow in the business world, and our motto is to help you with practical ideas and plans.",
+    "learnMore": "Learn More",
+    "monthShort": "Dec"
   },
   "newsletter": {
     "title": "Subscribe To Our Newsletter",
-    "subtitle": "Get The Best Offers With One Click",
+    "subtitle": "Get The Best Offers",
+    "oneClick": "With One Click",
     "button": "Subscribe"
   },
   "footer": {
     "agency": "Business Consultancy Agency",
-    "about": "About"
+    "about": "About",
+    "terms": "Terms",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "phone": "+998 1276 234",
+    "address": "82/93 Boeind Street, NY",
+    "email": "info@amid.mail.com",
+    "rights": "All Rights Reserved @Debzui2020"
   }
 }
