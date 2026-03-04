@@ -9,10 +9,10 @@ i18n
   .init({
     resources: {
       uz: { translation: uz },
-      ru: { translation: en }
+      en: { translation: en }
     },
-    lng: "uz", // default til
-    fallbackLng: "en",
+    lng: "en", // default til
+    fallbackLng: "uz",
     interpolation: {
       escapeValue: false
     }
