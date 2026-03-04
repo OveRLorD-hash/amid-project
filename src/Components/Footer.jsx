@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import Logo from '../assets/Logo.png'
+import { THemeContext } from '../Context/ThemeContext'
 
 const Footer = () => {
   const { t } = useTranslation()
-
+    const { theme, toggleTheme } = useContext(THemeContext)
   return (
-    <footer className='bg-[#DDECEE] pt-14'>
+    <footer className={`w-full pt-14 bg-white ${theme === "light" ? "light-mode" : "dark-mode"}`}>
       <div className='max-w-full w-[85%] mx-auto'>
         <div className='text-center'>
           <h2 className='text-[38px] md:text-[56px] font-extrabold leading-[1.2] text-[#082129]'>

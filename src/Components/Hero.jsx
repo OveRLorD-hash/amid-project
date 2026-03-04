@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import HeroGirl from '../assets/pleased-satisfied-2-removebg 1.png'
 import vector from '../assets/Vector.png'
@@ -13,12 +13,14 @@ import audiomack from '../assets/audiomask.png'
 import penguines from '../assets/penguines.png'
 import sariqDumoaloq from '../assets/sariqDumoaloq.png'
 import gotoMeeting from '../assets/gotoMiting.png'
+import { THemeContext } from '../Context/ThemeContext'
 
 const Hero = () => {
   const { t } = useTranslation()
-
+        const { theme, toggleTheme } = useContext(THemeContext)
+  
   return (
-    <div className='bg-white'>
+    <div className={`w-full pt-[100px] bg-white ${theme === "light" ? "light-mode" : "dark-mode"}`}>
       <main>
         <section className='max-w-full w-[85%] mx-auto py-5'>
           <div className='relative overflow-hidden border border-[#89B2FF] rounded-2xl bg-[#E3F1F2] px-6 py-12 md:px-10 lg:px-14 lg:py-16'>
@@ -84,7 +86,7 @@ const Hero = () => {
           </div>
         </section>
 
-        <section className='bg-white mt-10 py-12'>
+        <section className=' mt-10 py-12'>
           <div className='max-w-full w-[85%] mx-auto'>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
               <div className='h-[96px] rounded-xl bg-[#EAF1F3] flex items-center justify-center'>
@@ -115,7 +117,7 @@ const Hero = () => {
           </div>
         </section>
 
-        <section className='bg-[#F7F8F8] py-16 lg:py-20'>
+        <section className=' py-16 lg:py-20'>
           <div className='max-w-full w-[85%] mx-auto'>
             <div className='grid gap-8 lg:grid-cols-2 lg:items-center'>
               <div>
@@ -131,8 +133,8 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className='mt-10 grid gap-6 lg:grid-cols-3'>
-              <article className='rounded-[26px] p-8'>
+            <div className='mt-10 grid  gap-6 lg:grid-cols-3'>
+              <article className='bg-white rounded-[26px] p-8'>
                 <div className='flex h-[72px] w-[72px] items-center justify-center rounded-2xl bg-[#DDF3E8] text-[#0E5B55]'>
                   <svg width='28' height='28' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <rect x='3' y='5' width='18' height='14' rx='2' stroke='currentColor' strokeWidth='1.8' />
@@ -179,7 +181,7 @@ const Hero = () => {
                 </a>
               </article>
 
-              <article className='rounded-[26px] p-8'>
+              <article className='bg-white rounded-[26px] p-8'>
                 <div className='flex h-[72px] w-[72px] items-center justify-center rounded-2xl bg-[#FBE8DF] text-[#FF6A2C]'>
                   <svg width='28' height='28' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
                     <path d='M12 3V12H21' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' strokeLinejoin='round' />
@@ -204,7 +206,7 @@ const Hero = () => {
           </div>
         </section>
 
-        <section className='bg-[#F7F8F8] pb-16 lg:pb-24'>
+        <section className=' pb-16 lg:pb-24'>
           <div className='max-w-full w-[85%] mx-auto'>
             <div className='grid gap-10 lg:grid-cols-2 lg:items-start'>
               <div>
@@ -286,7 +288,7 @@ const Hero = () => {
           </div>
         </section>
 
-        <section className='bg-[#F7F8F8] pb-20 lg:pb-28'>
+        <section className=' pb-20 lg:pb-28'>
           <div className='max-w-full w-[85%] mx-auto'>
             <div className='text-center'>
               <span className='inline-block rounded-[4px] border border-[#EAECEC] bg-white px-5 py-2 text-[16px] font-semibold lowercase tracking-[0.08em] text-[#FF8238]'>
@@ -355,7 +357,7 @@ const Hero = () => {
                 </h3>
                 <p className='mt-4 text-[18px] leading-[1.8] text-[#4E5A5E]'>
                   {t('blog.description')}
-                </p>
+              </p>
                 <a href='#' className='mt-8 inline-flex items-center gap-3 text-[22px] font-semibold text-[#0E5B55]'>
                   {t('blog.learnMore')}
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' aria-hidden='true'>
